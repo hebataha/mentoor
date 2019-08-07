@@ -1,0 +1,163 @@
+/* Start Main Rulez */
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+
+.clear{
+    clear:both
+}
+
+/* End Main Rulez */
+
+/* Start Header */
+/* ***Start Logo*** */
+.header{
+}
+ .container{
+    border-top:4px solid #169FE6;
+    padding:20px 0 ;
+    border-bottom:1px solid #ddd;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd
+
+
+}
+.header .top-header {
+    padding: 30px;
+}
+.header .top-header .logo h3{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:35px
+}
+
+
+.header .top-header .logo ul li {
+    display:inline-block
+}
+
+.li-tem{
+    margin-left:40px;
+    top:-10px;
+    position:relative;
+    color: #8b8a8a;
+
+}
+.logo ul {
+    position:relative
+}
+.li-tem:before {
+    content: "";
+    display: block;
+    height: 35px;
+    width: 1px;
+    background: #e5e5e5;
+    position: absolute;
+    left: -25px;
+    top: -5px;
+}
+
+/* ***End Logo*** */
+
+/* ***Start left-header*** */
+.left-header{
+
+}
+.left-header ul{
+    float:right
+}
+.left-header li{
+    display:inline-block
+}
+.left-header ul li svg{
+font-size:18px;
+margin-left:10px;
+color:#acacac;
+cursor: pointer;
+transition: all .5s;
+-moz-transition: all .5s;
+-o-transition: all .5s;
+-webkit-transition: all .5s;
+
+
+
+}
+.left-header ul li svg:hover{
+
+    color:#919191;
+   }
+.left-header p{
+   float: right; 
+}
+.input-icon{
+position: relative;
+}
+.fa-search {
+    cursor: pointer;
+    color: #bfbfbf;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+/* ***End left-header*** */
+
+
+
+/* Start Nav */
+
+nav {
+    /* background: #4C4C4C; */
+    color: #fff;
+    position: relative;
+}
+nav ul{
+margin:0;
+background:#4C4C4C;
+position: relative;
+
+
+}
+
+nav ul li{
+ display:inline-block;
+ padding:20px;
+ border-right: 1px solid #696666;
+ text-transform: capitalize;
+ cursor: pointer;
+}
+nav ul li:first-of-type {
+  
+    background:#169FE6;
+  
+}
+nav ul li:first-of-type:before {
+    content: "";
+    display: block;
+    width: 15px;
+    background:#169FE6;
+    height: 60px;
+    position: absolute;
+    left: -15px;
+    top: 0;
+}
+nav:after {
+    content: "";
+    display: block;
+    width: 15px;
+    background: #4C4C4C;
+    height: 60px;
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+nav svg{
+    margin-right:5px
+}
+nav .container{
+    padding:0
+}
+/* End Nav */
+
+/* End Header */

@@ -161,3 +161,187 @@ nav .container{
 /* End Nav */
 
 /* End Header */
+
+
+/* Start three things section */
+
+section {
+    border-bottom: 2px solid #ededed;
+}
+.three-select {
+    overflow: hidden;
+    padding: 30px;
+}
+
+.three-select .icon {
+    float: left;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-size: 25px;
+}
+.three-select .icon i{
+
+}
+
+.three-select .ex {
+    float: right;
+    width: 80%;
+}
+
+.three-select h4 {
+    font-weight: bold;
+    color: #6c6c6c;
+}
+.three-select p{
+color:#8b8a8a
+}
+
+
+
+
+/* End three things section */
+
+/* Start Recent */
+.recent {
+    padding: 30px;
+    position: relative;
+}
+
+.re-right{
+
+}
+.re-right h4{
+
+}
+
+.re-right p{
+
+}
+
+.re-left{
+
+}
+.re-left .owl-carousel{
+
+}
+.re-left div{
+
+}
+
+.re-left div img{
+    /* width: 250px !important; */
+    height: 165px;
+    margin: auto;
+    border-bottom: 5px solid #ddd
+} 
+
+.re-left div h5{
+font-weight: bold;
+text-transform: capitalize
+}
+
+
+.re-left div p {
+color:#acacac
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+    font-size: 25px;
+    /* background: #ddd; */
+    POSITION: ABSOLUTE;
+    LEFT: -35%;
+    TOP: 50%;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    WIDTH: 20PX;
+    COLOR: #a5a5a5;
+    background: #f1f1f1;
+    outline:none
+}
+
+.owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus, .owl-carousel button.owl-dot:focus {
+   
+    background: #a5a5a5;
+    color: #f1f1f1;
+}
+
+.owl-carousel  .main {
+    border: 1px solid #DDD;
+    border-bottom: 2px solid #DDD;
+    padding-bottom:20px
+
+}
+.re-left div img:hover{
+    /* width: 250px !important; */
+    height: 165px;
+    margin: auto;
+    border-bottom: 5px solid #169FE6;
+    transition: all .2s;
+filter: opacity(70%)} 
+/* End Recent */
+
+
+/* Start News */
+
+.news{
+    padding:30px
+}
+.new-right {
+    float: right;
+    width: 79%;
+    padding-left: 20px;
+}
+
+.new-right h5{
+    font-weight:bold;
+    line-height: 1.8;
+}
+.new-left {
+    width: 20%;
+    float: left;
+}
+
+.news h4 span{
+    font-weight:bold;
+    color:#000
+}
+
+.news h4 {
+    /* font-weight:bold; */
+    color:#888
+}
+
+.new-left li {
+    /* background: red; */
+    text-align: center;
+    padding: 5px;
+}
+/* #ccc */
+.new-left li:first-of-type{
+    background: #f2f2f2
+}
+
+.new-left li:last-of-type{
+    background: #ccc
+}
+
+.new-right p{
+/* width:50% */
+}
+
+.news-one {
+    overflow:hidden;
+    display:inline-block
+}
+
+.news-p{
+    padding:30px;
+    background:#f1f1f1
+}
+/* End News */

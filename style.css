@@ -1,0 +1,347 @@
+/* Start Main Rulez */
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+
+.clear{
+    clear:both
+}
+
+/* End Main Rulez */
+
+/* Start Header */
+/* ***Start Logo*** */
+.header{
+}
+ .container{
+    border-top:4px solid #169FE6;
+    padding:20px 0 ;
+    border-bottom:1px solid #ddd;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd
+
+
+}
+.header .top-header {
+    padding: 30px;
+}
+.header .top-header .logo h3{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:35px
+}
+
+
+.header .top-header .logo ul li {
+    display:inline-block
+}
+
+.li-tem{
+    margin-left:40px;
+    top:-10px;
+    position:relative;
+    color: #8b8a8a;
+
+}
+.logo ul {
+    position:relative
+}
+.li-tem:before {
+    content: "";
+    display: block;
+    height: 35px;
+    width: 1px;
+    background: #e5e5e5;
+    position: absolute;
+    left: -25px;
+    top: -5px;
+}
+
+/* ***End Logo*** */
+
+/* ***Start left-header*** */
+.left-header{
+
+}
+.left-header ul{
+    float:right
+}
+.left-header li{
+    display:inline-block
+}
+.left-header ul li svg{
+font-size:18px;
+margin-left:10px;
+color:#acacac;
+cursor: pointer;
+transition: all .5s;
+-moz-transition: all .5s;
+-o-transition: all .5s;
+-webkit-transition: all .5s;
+
+
+
+}
+.left-header ul li svg:hover{
+
+    color:#919191;
+   }
+.left-header p{
+   float: right; 
+}
+.input-icon{
+position: relative;
+}
+.fa-search {
+    cursor: pointer;
+    color: #bfbfbf;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+/* ***End left-header*** */
+
+
+
+/* Start Nav */
+
+nav {
+    /* background: #4C4C4C; */
+    color: #fff;
+    position: relative;
+}
+nav ul{
+margin:0;
+background:#4C4C4C;
+position: relative;
+
+
+}
+
+nav ul li{
+ display:inline-block;
+ padding:20px;
+ border-right: 1px solid #696666;
+ text-transform: capitalize;
+ cursor: pointer;
+}
+nav ul li:first-of-type {
+  
+    background:#169FE6;
+  
+}
+nav ul li:first-of-type:before {
+    content: "";
+    display: block;
+    width: 15px;
+    background:#169FE6;
+    height: 60px;
+    position: absolute;
+    left: -15px;
+    top: 0;
+}
+nav:after {
+    content: "";
+    display: block;
+    width: 15px;
+    background: #4C4C4C;
+    height: 60px;
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+nav svg{
+    margin-right:5px
+}
+nav .container{
+    padding:0
+}
+/* End Nav */
+
+/* End Header */
+
+
+/* Start three things section */
+
+section {
+    border-bottom: 2px solid #ededed;
+}
+.three-select {
+    overflow: hidden;
+    padding: 30px;
+}
+
+.three-select .icon {
+    float: left;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-size: 25px;
+}
+.three-select .icon i{
+
+}
+
+.three-select .ex {
+    float: right;
+    width: 80%;
+}
+
+.three-select h4 {
+    font-weight: bold;
+    color: #6c6c6c;
+}
+.three-select p{
+color:#8b8a8a
+}
+
+
+
+
+/* End three things section */
+
+/* Start Recent */
+.recent {
+    padding: 30px;
+    position: relative;
+}
+
+.re-right{
+
+}
+.re-right h4{
+
+}
+
+.re-right p{
+
+}
+
+.re-left{
+
+}
+.re-left .owl-carousel{
+
+}
+.re-left div{
+
+}
+
+.re-left div img{
+    /* width: 250px !important; */
+    height: 165px;
+    margin: auto;
+    border-bottom: 5px solid #ddd
+} 
+
+.re-left div h5{
+font-weight: bold;
+text-transform: capitalize
+}
+
+
+.re-left div p {
+color:#acacac
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+    font-size: 25px;
+    /* background: #ddd; */
+    POSITION: ABSOLUTE;
+    LEFT: -35%;
+    TOP: 50%;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    WIDTH: 20PX;
+    COLOR: #a5a5a5;
+    background: #f1f1f1;
+    outline:none
+}
+
+.owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus, .owl-carousel button.owl-dot:focus {
+   
+    background: #a5a5a5;
+    color: #f1f1f1;
+}
+
+.owl-carousel  .main {
+    border: 1px solid #DDD;
+    border-bottom: 2px solid #DDD;
+    padding-bottom:20px
+
+}
+.re-left div img:hover{
+    /* width: 250px !important; */
+    height: 165px;
+    margin: auto;
+    border-bottom: 5px solid #169FE6;
+    transition: all .2s;
+filter: opacity(70%)} 
+/* End Recent */
+
+
+/* Start News */
+
+.news{
+    padding:30px
+}
+.new-right {
+    float: right;
+    width: 79%;
+    padding-left: 20px;
+}
+
+.new-right h5{
+    font-weight:bold;
+    line-height: 1.8;
+}
+.new-left {
+    width: 20%;
+    float: left;
+}
+
+.news h4 span{
+    font-weight:bold;
+    color:#000
+}
+
+.news h4 {
+    /* font-weight:bold; */
+    color:#888
+}
+
+.new-left li {
+    /* background: red; */
+    text-align: center;
+    padding: 5px;
+}
+/* #ccc */
+.new-left li:first-of-type{
+    background: #f2f2f2
+}
+
+.new-left li:last-of-type{
+    background: #ccc
+}
+
+.new-right p{
+/* width:50% */
+}
+
+.news-one {
+    overflow:hidden;
+    display:inline-block
+}
+
+.news-p{
+    padding:30px;
+    background:#f1f1f1
+}
+/* End News */

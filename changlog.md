@@ -1,3 +1,3 @@
-## whta's new
+## what's new
 ### added footer 
-###added slider
+### added slider
